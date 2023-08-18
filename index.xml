@@ -23,7 +23,7 @@ Visit the Hugo website!</description>
       <pubDate>Fri, 18 Aug 2023 15:08:23 +0800</pubDate>
       
       <guid>https://nyyyb.github.io/posts/%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%95%99%E4%BD%A0%E5%9C%A8windows%E4%B8%8B%E5%AE%9E%E7%8E%B0esp32%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%ACidf%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%85%B1%E5%AD%98/</guid>
-      <description>一步步教你在windows下实现ESP32不同版本idf的搭建与共存 我们知道esp-idf新的版本对旧的版本的代码支持不是很好，但是我们有的时候可能就会用到不同版本的idf，这篇文章可以基于vscode的profile特性帮你实现：
+      <description>我们知道esp-idf新的版本对旧的版本的代码支持不是很好，但是我们有的时候可能就会用到不同版本的idf，这篇文章可以基于vscode的profile特性帮你实现：
 windows下不同版本esp-idf的共存与快速切换 ‍
 1. esp-idf安装包的下载 exp-idf可以从以下官方网站下载
 dl.espressif.com/dl/esp-idf/?idf=4.4
