@@ -135,6 +135,80 @@ Visit the Hugo website!
 
           </div>
         
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%95%99%E4%BD%A0%E5%9C%A8windows%E4%B8%8B%E5%AE%9E%E7%8E%B0esp32%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%ACidf%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%85%B1%E5%AD%98/" class="color-inherit dim link">
+            一步步教你在windows下实现ESP32不同版本idf的搭建与共存
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          一步步教你在windows下实现ESP32不同版本idf的搭建与共存 我们知道esp-idf新的版本对旧的版本的代码支持不是很好，但是我们有的时候可能就会用到不同版本的idf，这篇文章可以基于vscode的profile特性帮你实现：
+windows下不同版本esp-idf的共存与快速切换 ‍
+1. esp-idf安装包的下载 exp-idf可以从以下官方网站下载
+dl.espressif.com/dl/esp-idf/?idf=4.4
+‍
+打开后界面如图所示
+​​
+第一个绿色的为在线安装包，虽然下载的时候体积很小但是安装的时候也要从服务器下载大量的文件，不推荐使用
+下面的浅蓝色和深蓝色为离线版本的idf安装包，可以根据自己的版本需要自行选择，如果没有符合要求的版本可以在最下面其他发行版和镜像处选择下载，主要看idf后面的版本就好了，ESP-IDE是乐鑫自己的IDE，我们不使用。
+笔者此处就下载了5.0.2，4.4.2，4.1.4几版本：
+​
+​
+​
+如果你在网上看到一个项目想要复刻，只需要关注版本号前面两个数字相同就可以。
+2. ESP-IDF的安装 假设我们要把esp-idf安装到D盘，可以在D盘新建Espressif文件夹并在该文件夹内根据你要安装的版本号创建如下的文件夹
+​
+接下来就可以进行esp-idf的安装了
+语言选择简体
+​
+同意协议
+下一步
+​​
+浏览，选择刚才创建的文件夹
+选择后如图所示
+下一步直到安装完成
+至此已经完成了esp-idf的安装，接下来可以进行vscode下espressif插件的安装和配置
+3. vscode profile配置 profile是vscode在2023年推出的一个新特性，通过给不同的编程环境设置不同的profile即可实现快速切换的同时保持vscode的轻量化。
+接下来我们可以创建适用于特定版本esp-idf的profile
+创建配置文件
+​
+设置profile文件名称并选择复制来源
+​
+稍等片刻就可以选择我们刚才创建好的profile
+​
+4. vscode上Espressif插件安装与配置 vscode扩展中心搜索espressif并安装
+​
+安装好后键盘快捷键ctrl+shift+p 输入esp并选择配置esp-idf插件
+​
+稍等片刻就会进入esp-idf setup界面，选择红框中的use existing setup
+这时候就是大多数小伙伴安装失败的一个情况了，有的人在这里没有显示任何内容，有的显示的不是自己想要的信息或者是错误的信息，我这里是之前已经安装了一个版本，所以会有502版本的，但是我现在需要安装的是510版本，接下来我们就来解决这个问题
+ctrl+,进入vscode设置
+​
+在搜索框输入espressif，会出现8个搜索结果，其中前面3个是https的链接地址，后面5个是在我们电脑中的地址，我们不要犹豫，把后面五个电脑中的地址全部删除
+删除后如图所示
+​
+这时候把所有的vscode窗口都关闭后重新打开vscode，ctrl+shift+p输入esp后选择配置esp-idf插件，选择use existing setup后，正确的信息就会显示出来
+​
+选择该设置后稍等片刻如果显示如下界面就说明了完成了该版本的esp-idf安装与vscode配置
+​
+5. 多版本esp-idf共存与切换配置 以上内容，简单来说就是以下几步
+下载所需版本的idf安装文件 安装到以版本号命名的文件夹中 创建适用于该版本的vscode profile文件 配置espressif idf插件 因此如果需要安装多个版本的并轻松切换只需要重复执行上述步骤，就可以轻松选择不同版本的idf
+        </div>
+          <a href="/posts/%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%95%99%E4%BD%A0%E5%9C%A8windows%E4%B8%8B%E5%AE%9E%E7%8E%B0esp32%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%ACidf%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%85%B1%E5%AD%98/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
       </section>
 
       
