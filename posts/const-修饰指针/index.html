@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="const 修饰指针 int a = 10; int b = 20; int *p = &amp;a; const 修饰指针 3 种情况：
+常量指针：指向常量的指针
+​const int *p = &amp;a​
+指针的指向可以修改，但是指针指向的值不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 对
+**指针常量：**指针类型的常量
+​int *const p = &amp;a​
+指针的指向不可以修改，但是指针指向的值可以修改
+​*p = 20​ 对
+​p = &amp;d​ 错
+常量指针常量
+​const int *const p = &amp;a​
+指针的指向和指针指向的值都不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 错
+‍">
+    <meta name="generator" content="Hugo 0.117.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="" />
+<meta property="og:description" content="const 修饰指针 int a = 10; int b = 20; int *p = &amp;a; const 修饰指针 3 种情况：
+常量指针：指向常量的指针
+​const int *p = &amp;a​
+指针的指向可以修改，但是指针指向的值不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 对
+**指针常量：**指针类型的常量
+​int *const p = &amp;a​
+指针的指向不可以修改，但是指针指向的值可以修改
+​*p = 20​ 对
+​p = &amp;d​ 错
+常量指针常量
+​const int *const p = &amp;a​
+指针的指向和指针指向的值都不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 错
+‍" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.nyyyx.top/posts/const-%E4%BF%AE%E9%A5%B0%E6%8C%87%E9%92%88/" /><meta property="article:section" content="posts" />
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="const 修饰指针 int a = 10; int b = 20; int *p = &amp;a; const 修饰指针 3 种情况：
+常量指针：指向常量的指针
+​const int *p = &amp;a​
+指针的指向可以修改，但是指针指向的值不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 对
+**指针常量：**指针类型的常量
+​int *const p = &amp;a​
+指针的指向不可以修改，但是指针指向的值可以修改
+​*p = 20​ 对
+​p = &amp;d​ 错
+常量指针常量
+​const int *const p = &amp;a​
+指针的指向和指针指向的值都不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 错
+‍">
+
+<meta itemprop="wordCount" content="65">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="const 修饰指针 int a = 10; int b = 20; int *p = &amp;a; const 修饰指针 3 种情况：
+常量指针：指向常量的指针
+​const int *p = &amp;a​
+指针的指向可以修改，但是指针指向的值不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 对
+**指针常量：**指针类型的常量
+​int *const p = &amp;a​
+指针的指向不可以修改，但是指针指向的值可以修改
+​*p = 20​ 对
+​p = &amp;d​ 错
+常量指针常量
+​const int *const p = &amp;a​
+指针的指向和指针指向的值都不可以修改
+​*p = 20​ 错
+​p = &amp;d​ 错
+‍"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="const-修饰指针">const 修饰指针</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>p <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>a;
+</span></span></code></pre></div><p>const 修饰指针 3 种情况：</p>
+<ol>
+<li>
+<p><strong>常量指针</strong>：指向常量的指针</p>
+<p>​<code>const int *p = &amp;a</code>​</p>
+<p><strong>指针的指向可以修改，但是指针指向的值不可以修改</strong></p>
+<p>​<code>*p = 20</code>​ 错</p>
+<p>​<code>p = &amp;d</code>​ 对</p>
+</li>
+<li>
+<p>**指针常量：**指针类型的常量</p>
+<p>​<code>int *const p = &amp;a</code>​</p>
+<p>指针的指向不可以修改，但是指针指向的值可以修改</p>
+<p>​<code>*p = 20</code>​ 对</p>
+<p>​<code>p = &amp;d</code>​ 错</p>
+</li>
+<li>
+<p>常量指针常量</p>
+<p>​<code>const int *const p = &amp;a</code>​</p>
+<p>指针的指向和指针指向的值都不可以修改</p>
+<p>​<code>*p = 20</code>​ 错</p>
+<p>​<code>p = &amp;d</code>​ 错</p>
+</li>
+</ol>
+<p>‍</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.nyyyx.top/" >
+    &copy;  My New Hugo Site 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -76,5 +76,30 @@ ctrl+,进入vscode设置
 下载所需版本的idf安装文件 安装到以版本号命名的文件夹中 创建适用于该版本的vscode profile文件 配置espressif idf插件 因此如果需要安装多个版本的并轻松切换只需要重复执行上述步骤，就可以轻松选择不同版本的idf</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://www.nyyyx.top/posts/const-%E4%BF%AE%E9%A5%B0%E6%8C%87%E9%92%88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nyyyx.top/posts/const-%E4%BF%AE%E9%A5%B0%E6%8C%87%E9%92%88/</guid>
+      <description>const 修饰指针 int a = 10; int b = 20; int *p = &amp;amp;a; const 修饰指针 3 种情况：
+常量指针：指向常量的指针
+​const int *p = &amp;amp;a​
+指针的指向可以修改，但是指针指向的值不可以修改
+​*p = 20​ 错
+​p = &amp;amp;d​ 对
+**指针常量：**指针类型的常量
+​int *const p = &amp;amp;a​
+指针的指向不可以修改，但是指针指向的值可以修改
+​*p = 20​ 对
+​p = &amp;amp;d​ 错
+常量指针常量
+​const int *const p = &amp;amp;a​
+指针的指向和指针指向的值都不可以修改
+​*p = 20​ 错
+​p = &amp;amp;d​ 错
+‍</description>
+    </item>
+    
   </channel>
 </rss>
